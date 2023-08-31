@@ -14,7 +14,7 @@ Moreover, you have to package four Jar-packages, two of them are for ODPS_GRAPH 
 
 ## The Data
 
-We also provide 13 graphs, which can be classified into 4 groups: S_N, S_T, M_N and B_N.
+We also provide 12 graphs, which can be classified into 4 groups: S_N, S_T, M_N and B_N.
 The series of numbers at the end of the name are related to the number of vertices given in Table 1 of the submission.
 
 As you can see, there are two kinds of files in the data profile.
@@ -22,7 +22,7 @@ As you can see, there are two kinds of files in the data profile.
 2) *_xa, *_xb : Please cat files with the same prefix into a zip file, i.e.,
          cat <graph_name>_x* > <final_zip_file_name>.zip ,
    and then unzip it.
-for example, if you want to get the graph <GRAPH_B_N_28144503>
+for example, if you want to get the graph <GRAPH_B_N_281819253>
 
-run  cat GRAPH_B_N_28144503_x* > file.zip ,
+run  cat GRAPH_B_N_28181925_x* > file.zip ,
 unzip file.zip.
